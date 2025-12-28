@@ -9,6 +9,14 @@ A simple Task Management Application built with Flask (Backend) and React (Front
 - Protected Routes
 - Responsive UI
 
+## Getting Started
+
+### Cloning the Repository
+```bash
+git clone https://github.com/ahmedsamir45/Rawmart_Task.git
+cd Rawmart_Task
+```
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -67,6 +75,16 @@ A simple Task Management Application built with Flask (Backend) and React (Front
 - **Tests**: Run `pytest` in `backend/` to run automated tests.
 - **Swagger**: API Documentation available at `/apidocs`.
 
+## Running Tests
+To execute the backend test suite (covering Auth, CRUD, and Pagination):
+1. Navigate to the backend directory: `cd backend`
+2. Ensure your virtual environment is active.
+3. Run pytest:
+   ```bash
+   pytest
+   ```
+   *Note: Ensure `pytest` is installed (`pip install pytest`).*
+
 ## API Endpoints
 
 ### Auth
@@ -85,4 +103,18 @@ A simple Task Management Application built with Flask (Backend) and React (Front
 - Port 3000 is available for frontend.
 
 ## Screenshots
-View the project screenshots and source code at: [https://github.com/ahmedsamir45/Rawmart_Task](https://github.com/ahmedsamir45/Rawmart_Task)
+
+### Login
+![Login](Screenshots/login.png)
+
+### Register
+![Register](Screenshots/register.png)
+
+### Task Dashboard
+![Tasks](Screenshots/tasks.png)
+
+### Pagination
+![Pagination](Screenshots/paganator.png)
+
+### Swagger Documentation
+![Swagger Docs](Screenshots/swagger%20doc.png)
